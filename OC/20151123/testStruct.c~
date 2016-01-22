@@ -1,0 +1,25 @@
+#include <stdio.h>
+#include <stdbool.h>
+#include <string.h>
+
+int main(void)
+{
+    //struct 是结构体的关键字
+    //student 是结构体的名字（tag）
+    //yulin 是结构体变量
+    //结构体一般用来描述一个具体的事物，与数组存储数据的方式很像，但是存储的数据类型可以不一样
+    struct student{
+        int age;
+        float height;
+        char sex;
+        char name[20];
+    }yulin;
+
+    yulin.age = 24;
+    yulin.height = 1.75;
+    yulin.sex = 'B';
+    strcpy(yulin.name,"yulin");
+
+    printf("煜林----年龄：%d\n\t身高：%.2f\n\t性别：%c\n\t名字：%s\n",yulin.age,yulin.height,yulin.sex,yulin.name);
+    return 0;
+}

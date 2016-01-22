@@ -1,0 +1,266 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CC779B821C127EB800C2F173 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CC779B811C127EB800C2F173 /* main.m */; };
+		CC779B8A1C127EE600C2F173 /* Plant.m in Sources */ = {isa = PBXBuildFile; fileRef = CC779B891C127EE600C2F173 /* Plant.m */; };
+		CC779B8D1C127EFE00C2F173 /* Zombie.m in Sources */ = {isa = PBXBuildFile; fileRef = CC779B8C1C127EFE00C2F173 /* Zombie.m */; };
+		CC779B901C127F9400C2F173 /* Game.m in Sources */ = {isa = PBXBuildFile; fileRef = CC779B8F1C127F9400C2F173 /* Game.m */; };
+		CC779B931C12808900C2F173 /* PVZObject.m in Sources */ = {isa = PBXBuildFile; fileRef = CC779B921C12808900C2F173 /* PVZObject.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		CC779B7C1C127EB800C2F173 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		CC779B7E1C127EB800C2F173 /* 植物大战僵尸 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "植物大战僵尸"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC779B811C127EB800C2F173 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CC779B881C127EE600C2F173 /* Plant.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Plant.h; sourceTree = "<group>"; };
+		CC779B891C127EE600C2F173 /* Plant.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Plant.m; sourceTree = "<group>"; };
+		CC779B8B1C127EFD00C2F173 /* Zombie.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Zombie.h; sourceTree = "<group>"; };
+		CC779B8C1C127EFE00C2F173 /* Zombie.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Zombie.m; sourceTree = "<group>"; };
+		CC779B8E1C127F9400C2F173 /* Game.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Game.h; sourceTree = "<group>"; };
+		CC779B8F1C127F9400C2F173 /* Game.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Game.m; sourceTree = "<group>"; };
+		CC779B911C12808900C2F173 /* PVZObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PVZObject.h; sourceTree = "<group>"; };
+		CC779B921C12808900C2F173 /* PVZObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PVZObject.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CC779B7B1C127EB800C2F173 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CC779B751C127EB800C2F173 = {
+			isa = PBXGroup;
+			children = (
+				CC779B801C127EB800C2F173 /* 植物大战僵尸 */,
+				CC779B7F1C127EB800C2F173 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CC779B7F1C127EB800C2F173 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CC779B7E1C127EB800C2F173 /* 植物大战僵尸 */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CC779B801C127EB800C2F173 /* 植物大战僵尸 */ = {
+			isa = PBXGroup;
+			children = (
+				CC779B811C127EB800C2F173 /* main.m */,
+				CC779B8E1C127F9400C2F173 /* Game.h */,
+				CC779B8F1C127F9400C2F173 /* Game.m */,
+				CC779B911C12808900C2F173 /* PVZObject.h */,
+				CC779B921C12808900C2F173 /* PVZObject.m */,
+				CC779B881C127EE600C2F173 /* Plant.h */,
+				CC779B891C127EE600C2F173 /* Plant.m */,
+				CC779B8B1C127EFD00C2F173 /* Zombie.h */,
+				CC779B8C1C127EFE00C2F173 /* Zombie.m */,
+			);
+			path = "植物大战僵尸";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CC779B7D1C127EB800C2F173 /* 植物大战僵尸 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CC779B851C127EB800C2F173 /* Build configuration list for PBXNativeTarget "植物大战僵尸" */;
+			buildPhases = (
+				CC779B7A1C127EB800C2F173 /* Sources */,
+				CC779B7B1C127EB800C2F173 /* Frameworks */,
+				CC779B7C1C127EB800C2F173 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "植物大战僵尸";
+			productName = "植物大战僵尸";
+			productReference = CC779B7E1C127EB800C2F173 /* 植物大战僵尸 */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CC779B761C127EB800C2F173 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = qingyun;
+				TargetAttributes = {
+					CC779B7D1C127EB800C2F173 = {
+						CreatedOnToolsVersion = 6.3;
+					};
+				};
+			};
+			buildConfigurationList = CC779B791C127EB800C2F173 /* Build configuration list for PBXProject "植物大战僵尸" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CC779B751C127EB800C2F173;
+			productRefGroup = CC779B7F1C127EB800C2F173 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CC779B7D1C127EB800C2F173 /* 植物大战僵尸 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CC779B7A1C127EB800C2F173 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC779B8D1C127EFE00C2F173 /* Zombie.m in Sources */,
+				CC779B821C127EB800C2F173 /* main.m in Sources */,
+				CC779B8A1C127EE600C2F173 /* Plant.m in Sources */,
+				CC779B931C12808900C2F173 /* PVZObject.m in Sources */,
+				CC779B901C127F9400C2F173 /* Game.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		CC779B831C127EB800C2F173 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		CC779B841C127EB800C2F173 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		CC779B861C127EB800C2F173 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CC779B871C127EB800C2F173 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CC779B791C127EB800C2F173 /* Build configuration list for PBXProject "植物大战僵尸" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC779B831C127EB800C2F173 /* Debug */,
+				CC779B841C127EB800C2F173 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CC779B851C127EB800C2F173 /* Build configuration list for PBXNativeTarget "植物大战僵尸" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC779B861C127EB800C2F173 /* Debug */,
+				CC779B871C127EB800C2F173 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CC779B761C127EB800C2F173 /* Project object */;
+}

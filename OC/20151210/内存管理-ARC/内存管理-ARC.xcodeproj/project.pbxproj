@@ -1,0 +1,248 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CC4E01B91C1AAC7D0037AF15 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CC4E01B81C1AAC7D0037AF15 /* main.m */; };
+		CC4E01C11C1AACED0037AF15 /* Pig.m in Sources */ = {isa = PBXBuildFile; fileRef = CC4E01C01C1AACED0037AF15 /* Pig.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		CC4E01B31C1AAC7D0037AF15 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		CC4E01B51C1AAC7D0037AF15 /* 内存管理-ARC */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "内存管理-ARC"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC4E01B81C1AAC7D0037AF15 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CC4E01BF1C1AACED0037AF15 /* Pig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Pig.h; sourceTree = "<group>"; };
+		CC4E01C01C1AACED0037AF15 /* Pig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Pig.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CC4E01B21C1AAC7D0037AF15 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CC4E01AC1C1AAC7D0037AF15 = {
+			isa = PBXGroup;
+			children = (
+				CC4E01B71C1AAC7D0037AF15 /* 内存管理-ARC */,
+				CC4E01B61C1AAC7D0037AF15 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CC4E01B61C1AAC7D0037AF15 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CC4E01B51C1AAC7D0037AF15 /* 内存管理-ARC */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CC4E01B71C1AAC7D0037AF15 /* 内存管理-ARC */ = {
+			isa = PBXGroup;
+			children = (
+				CC4E01B81C1AAC7D0037AF15 /* main.m */,
+				CC4E01BF1C1AACED0037AF15 /* Pig.h */,
+				CC4E01C01C1AACED0037AF15 /* Pig.m */,
+			);
+			path = "内存管理-ARC";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CC4E01B41C1AAC7D0037AF15 /* 内存管理-ARC */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CC4E01BC1C1AAC7D0037AF15 /* Build configuration list for PBXNativeTarget "内存管理-ARC" */;
+			buildPhases = (
+				CC4E01B11C1AAC7D0037AF15 /* Sources */,
+				CC4E01B21C1AAC7D0037AF15 /* Frameworks */,
+				CC4E01B31C1AAC7D0037AF15 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "内存管理-ARC";
+			productName = "内存管理-ARC";
+			productReference = CC4E01B51C1AAC7D0037AF15 /* 内存管理-ARC */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CC4E01AD1C1AAC7D0037AF15 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = qingyun;
+				TargetAttributes = {
+					CC4E01B41C1AAC7D0037AF15 = {
+						CreatedOnToolsVersion = 6.3;
+					};
+				};
+			};
+			buildConfigurationList = CC4E01B01C1AAC7D0037AF15 /* Build configuration list for PBXProject "内存管理-ARC" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CC4E01AC1C1AAC7D0037AF15;
+			productRefGroup = CC4E01B61C1AAC7D0037AF15 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CC4E01B41C1AAC7D0037AF15 /* 内存管理-ARC */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CC4E01B11C1AAC7D0037AF15 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC4E01C11C1AACED0037AF15 /* Pig.m in Sources */,
+				CC4E01B91C1AAC7D0037AF15 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		CC4E01BA1C1AAC7D0037AF15 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		CC4E01BB1C1AAC7D0037AF15 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		CC4E01BD1C1AAC7D0037AF15 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CC4E01BE1C1AAC7D0037AF15 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CC4E01B01C1AAC7D0037AF15 /* Build configuration list for PBXProject "内存管理-ARC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC4E01BA1C1AAC7D0037AF15 /* Debug */,
+				CC4E01BB1C1AAC7D0037AF15 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CC4E01BC1C1AAC7D0037AF15 /* Build configuration list for PBXNativeTarget "内存管理-ARC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC4E01BD1C1AAC7D0037AF15 /* Debug */,
+				CC4E01BE1C1AAC7D0037AF15 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CC4E01AD1C1AAC7D0037AF15 /* Project object */;
+}

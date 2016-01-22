@@ -1,0 +1,43 @@
+#include <stdio.h>
+
+//函数的声明，参数名可以省略
+int func(int);
+int func1(int);
+int main(void)
+{
+    //声明一个函数指针变量，指向一个函数，这个函数返回值是int类型，需要一个int类型的参数
+    int (*f)(int);
+
+    //对函数指针进行赋值,让f指向func函数.赋值必须确保类型一致
+   // f = func;//赋值方式1
+    f = &func;//赋值方式2
+
+    //函数调用方式一：函数名
+    int result = func(30);
+    printf("通过函数名调用：result = %d\n",result);
+    //函数调用方式二：函数指针名
+    result = f(30);
+    printf("通过函数指针名调用：result = %d\n",result);
+
+    //函数调用方式三：函数指针名前加*号
+    result = (*f)(30);
+    printf("通过函数指针名加*调用：result = %d\n",result);
+    //函数调用方式四：函数指针名前加多个*号
+    result = (*********f)(30);
+    printf("通过函数指针名加多个*调用：result = %d\n",result);
+    
+    f = func1;//改变了f的指向，此时指向函数func1
+    result = f(30);
+    printf("通过函数指针名调用func1：result = %d\n",result);
+    
+    return 0;
+}
+//函数定义
+int func(int x)
+{
+    return x+10;
+}
+int func1(int x)
+{
+    return x*10;
+}

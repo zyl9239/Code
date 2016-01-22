@@ -1,0 +1,267 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CCF3849D1C1BFA3300F18FDB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CCF3849C1C1BFA3300F18FDB /* main.m */; };
+		CCF384A51C1BFA5A00F18FDB /* QYCar.m in Sources */ = {isa = PBXBuildFile; fileRef = CCF384A41C1BFA5A00F18FDB /* QYCar.m */; };
+		CCF384A81C1BFF7300F18FDB /* QYEngine.m in Sources */ = {isa = PBXBuildFile; fileRef = CCF384A71C1BFF7300F18FDB /* QYEngine.m */; };
+		CCF6C1FC1C1C04AC00F1B0C4 /* QYTire.m in Sources */ = {isa = PBXBuildFile; fileRef = CCF6C1FB1C1C04AC00F1B0C4 /* QYTire.m */; };
+		CCF6C1FF1C1C11C400F1B0C4 /* QYAllWeatherTire.m in Sources */ = {isa = PBXBuildFile; fileRef = CCF6C1FE1C1C11C400F1B0C4 /* QYAllWeatherTire.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		CCF384971C1BFA3300F18FDB /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		CCF384991C1BFA3300F18FDB /* QYCarDemo */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = QYCarDemo; sourceTree = BUILT_PRODUCTS_DIR; };
+		CCF3849C1C1BFA3300F18FDB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CCF384A31C1BFA5A00F18FDB /* QYCar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "\U0019QYCar.h"; sourceTree = "<group>"; };
+		CCF384A41C1BFA5A00F18FDB /* QYCar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "\U0019QYCar.m"; sourceTree = "<group>"; };
+		CCF384A61C1BFF7300F18FDB /* QYEngine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QYEngine.h; sourceTree = "<group>"; };
+		CCF384A71C1BFF7300F18FDB /* QYEngine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QYEngine.m; sourceTree = "<group>"; };
+		CCF6C1FA1C1C04AC00F1B0C4 /* QYTire.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QYTire.h; sourceTree = "<group>"; };
+		CCF6C1FB1C1C04AC00F1B0C4 /* QYTire.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QYTire.m; sourceTree = "<group>"; };
+		CCF6C1FD1C1C11C400F1B0C4 /* QYAllWeatherTire.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QYAllWeatherTire.h; sourceTree = "<group>"; };
+		CCF6C1FE1C1C11C400F1B0C4 /* QYAllWeatherTire.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QYAllWeatherTire.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CCF384961C1BFA3300F18FDB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CCF384901C1BFA3300F18FDB = {
+			isa = PBXGroup;
+			children = (
+				CCF3849B1C1BFA3300F18FDB /* QYCarDemo */,
+				CCF3849A1C1BFA3300F18FDB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CCF3849A1C1BFA3300F18FDB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CCF384991C1BFA3300F18FDB /* QYCarDemo */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CCF3849B1C1BFA3300F18FDB /* QYCarDemo */ = {
+			isa = PBXGroup;
+			children = (
+				CCF3849C1C1BFA3300F18FDB /* main.m */,
+				CCF6C1FA1C1C04AC00F1B0C4 /* QYTire.h */,
+				CCF6C1FB1C1C04AC00F1B0C4 /* QYTire.m */,
+				CCF6C1FD1C1C11C400F1B0C4 /* QYAllWeatherTire.h */,
+				CCF6C1FE1C1C11C400F1B0C4 /* QYAllWeatherTire.m */,
+				CCF384A31C1BFA5A00F18FDB /* QYCar.h */,
+				CCF384A41C1BFA5A00F18FDB /* QYCar.m */,
+				CCF384A61C1BFF7300F18FDB /* QYEngine.h */,
+				CCF384A71C1BFF7300F18FDB /* QYEngine.m */,
+			);
+			path = QYCarDemo;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CCF384981C1BFA3300F18FDB /* QYCarDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CCF384A01C1BFA3300F18FDB /* Build configuration list for PBXNativeTarget "QYCarDemo" */;
+			buildPhases = (
+				CCF384951C1BFA3300F18FDB /* Sources */,
+				CCF384961C1BFA3300F18FDB /* Frameworks */,
+				CCF384971C1BFA3300F18FDB /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = QYCarDemo;
+			productName = QYCarDemo;
+			productReference = CCF384991C1BFA3300F18FDB /* QYCarDemo */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CCF384911C1BFA3300F18FDB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = qingyun;
+				TargetAttributes = {
+					CCF384981C1BFA3300F18FDB = {
+						CreatedOnToolsVersion = 6.3;
+					};
+				};
+			};
+			buildConfigurationList = CCF384941C1BFA3300F18FDB /* Build configuration list for PBXProject "QYCarDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CCF384901C1BFA3300F18FDB;
+			productRefGroup = CCF3849A1C1BFA3300F18FDB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CCF384981C1BFA3300F18FDB /* QYCarDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CCF384951C1BFA3300F18FDB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCF6C1FF1C1C11C400F1B0C4 /* QYAllWeatherTire.m in Sources */,
+				CCF384A51C1BFA5A00F18FDB /* QYCar.m in Sources */,
+				CCF6C1FC1C1C04AC00F1B0C4 /* QYTire.m in Sources */,
+				CCF3849D1C1BFA3300F18FDB /* main.m in Sources */,
+				CCF384A81C1BFF7300F18FDB /* QYEngine.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		CCF3849E1C1BFA3300F18FDB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = NO;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		CCF3849F1C1BFA3300F18FDB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = NO;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		CCF384A11C1BFA3300F18FDB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CCF384A21C1BFA3300F18FDB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CCF384941C1BFA3300F18FDB /* Build configuration list for PBXProject "QYCarDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CCF3849E1C1BFA3300F18FDB /* Debug */,
+				CCF3849F1C1BFA3300F18FDB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CCF384A01C1BFA3300F18FDB /* Build configuration list for PBXNativeTarget "QYCarDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CCF384A11C1BFA3300F18FDB /* Debug */,
+				CCF384A21C1BFA3300F18FDB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CCF384911C1BFA3300F18FDB /* Project object */;
+}

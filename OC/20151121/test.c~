@@ -1,0 +1,13 @@
+#include <stdio.h>
+
+int main(void)
+{
+    //printf()用途是打印文字内容
+    printf("hello world!\n");
+    printf("hello world!\n");
+
+    //%d是格式化输出
+    printf("我今年%d岁了，我工作%d年了。\n",24,2);
+    printf("10+10=%d\n",10+10);
+    return 0;
+}

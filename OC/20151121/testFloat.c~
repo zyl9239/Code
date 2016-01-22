@@ -1,0 +1,15 @@
+
+#include <stdio.h>
+#include <stdbool.h>
+
+int main(void)
+{
+
+    float f;
+    double df;
+    long double ldf;
+    
+    f = 3.14;
+    printf("f ==== %.2f\n",f);
+    return 0;
+}

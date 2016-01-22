@@ -1,0 +1,39 @@
+#include <stdio.h>
+#include <stdbool.h>
+#include <string.h>
+
+int main(void)
+{
+    typedef struct{
+        float HP;
+        float MP;
+        int EX;
+        int LV;
+        char str;
+    }Player;
+
+    Player Team[5];
+    Team[0].HP = 3000;
+    Team[0].MP = 2000;
+    Team[0].EX = 500;
+    Team[0].LV = 10;
+    Team[0].str = 'S';
+
+    Team[1].HP = 5000;
+    Team[1].MP = 4000;
+    Team[1].EX = 500;
+    Team[1].LV = 30;
+    Team[1].str = 'Z';
+
+    Team[2].HP = 4000;
+    Team[2].MP = 3000;
+    Team[2].EX = 500;
+    Team[2].LV = 20;
+    Team[2].str = 'F';
+
+    for (int i = 0; i < 3; i++)
+    {
+        printf("职位：%c\t血：%.2f\t法：%.2f\t经验：%d\t级别：%d\n",Team[i].str,Team[i].HP,Team[i].MP,Team[i].EX,Team[i].LV);
+    }
+    return 0;
+}

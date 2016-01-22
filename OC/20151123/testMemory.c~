@@ -1,0 +1,14 @@
+#include <stdio.h>
+#include <stdbool.h>
+
+int globalVar;
+
+int main(void)
+{
+    printf("globalVar >>> %d, %p\n",globalVar,&globalVar);
+    
+    int a;
+    printf("a >>>> %d, %p \n", a, &a);
+
+    return 0;
+}

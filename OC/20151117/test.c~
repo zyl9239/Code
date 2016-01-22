@@ -1,0 +1,42 @@
+#include <stdio.h>
+#include <stdbool.h>
+
+//void swap(int x, int y);
+void swap(int *px, int *py);
+
+int main(void)
+{
+    int var,secVar;
+
+    printf("请输入两个数：\n");
+    scanf("%d,%d",&var,&secVar);
+
+    printf("交换前的值：var = %d,secVar = %d\n",var,secVar);
+    //swap(var,secVar);
+    swap(&var,&secVar);
+    printf("交换后的值：var = %d,secVar = %d\n",var,secVar);
+
+    return 0;
+}
+
+/*
+void swap(int x,int y)
+{
+    printf("交换前x = %d,y = %d\n",x,y);
+
+    int temp = x;
+    x = y;
+    y = temp;
+
+    printf("交换前x = %d,y = %d\n",x,y);
+
+}
+*/
+
+void swap(int *px, int *py)
+{
+    int temp = *px;
+    *px = *py;
+    *py = temp;
+
+}
